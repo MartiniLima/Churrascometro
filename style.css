@@ -8,9 +8,10 @@ body{
     /* background-image: url("img/back.jpg");
     background-repeat: no-repeat;
     background-size: cover; */
-    background-color: rgba(54, 52, 50, 0.582);
+    background-color: rgba(54, 52, 50, 0.61);
     max-width: 300px;
     margin: auto;
+    margin-top: 60px;
     color: rgb(238, 237, 237);
     padding: 20px;
     border-radius: 20px;
