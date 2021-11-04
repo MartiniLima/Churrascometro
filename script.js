@@ -24,9 +24,9 @@ function calcular(){
     let qtdCerveja = cervejaPP(duracao) * adultos
 
 
-    resultado.innerHTML = `<p>${qtdCarne}g de Carne</p>`
+    resultado.innerHTML = `<b><p>${qtdCarne}g de Carne</p></b>`
     resultado.innerHTML += `<b><p>${qtdBebida}ml de Agua, Refri e/ou Suco</p></b>`
-    resultado.innerHTML += `<p>${qtdCerveja}ml de Cerveja</p>`
+    resultado.innerHTML += `<b><p>${qtdCerveja}ml de Cerveja</p></b>`
 }
 
 function carnePP(duracao){
