@@ -1,9 +1,3 @@
-
-//Cerveja - 1200ml por pessoas --  se + de 6hras 2000ml
-//Refri/agua - 1000ml por pessoa -- se + de 6hras 1500ml
-
-//Crianças valem por meia pessoa
-
 let inAdultos = document.getElementById("adultos")
 let inCriancas = document.getElementById("criancas")
 let inDuracao = document.getElementById("duracao")
@@ -24,9 +18,9 @@ function calcular(){
     let qtdCerveja = cervejaPP(duracao) * adultos
 
 
-    resultado.innerHTML = `<p>${qtdCarne}g de Carne</p>`
+    resultado.innerHTML = `<b><p>${qtdCarne}g de Carne</p></b>`
     resultado.innerHTML += `<b><p>${qtdBebida}ml de Agua, Refri e/ou Suco</p></b>`
-    resultado.innerHTML += `<p>${qtdCerveja}ml de Cerveja</p>`
+    resultado.innerHTML += `<b><p>${qtdCerveja}ml de Cerveja</p></b>`
 }
 
 function carnePP(duracao){
